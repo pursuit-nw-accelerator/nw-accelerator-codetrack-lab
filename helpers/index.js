@@ -5,7 +5,7 @@ const {
   getWeeklyDSAPointsForUser,
 } = require('../api');
 
-const { MY_CLASS, MY_CODETRACK_ID } = process.env;
+const { MY_CODETRACK_ID } = process.env;
 
 /**
  * Returns the highest number of points and highest
